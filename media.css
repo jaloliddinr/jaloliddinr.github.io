@@ -1,0 +1,36 @@
+@media (max-width: 575px){
+.menu{
+	position: static;
+}
+.menu a{
+	width: 100%;
+	padding: 20px 0;
+}
+.header{
+	margin-top: 0;
+	padding: 100px 10px;
+	background-size: cover;
+	background-position: center center;
+	min-height: 300px;
+}
+#about img{
+	width: 90%;
+	margin: 10px 5%;
+	float: none;
+}
+.member, .tariff{
+	min-width: 80%;
+}
+#team{
+	margin-left: 8%;
+}
+#contacts input{
+	padding: 12px 8px;
+	margin: 5px 0;
+}
+#contacts button{
+	margin: 0 35%;
+	width: 30%;
+	height: 10%;
+}
+}

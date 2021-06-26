@@ -1,0 +1,237 @@
+.menu{
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	background-color: white;
+	top: 0;
+	opacity: 0.8;
+}
+.menu a{
+	padding: 20px 40px;
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+}
+.menu a:hover{
+	background-color: #ccc;
+}
+.header{
+	margin-top: 58px;
+	background-image: url(images/polygons.png);
+	text-align: center;
+	color: white;
+	background-color: white;
+	padding: 20% 0;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 100%;
+}
+.header a{
+	padding: 15px 25px;
+	background-color: white;
+	border-radius: 10px;
+	color: black;
+	text-decoration: none;
+}
+.header p{
+	margin: 45px 0;
+}
+#about{
+	text-align: center;
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 40px 0;
+	text-align: justify;
+}
+#about img{
+	width: 400px;
+	float: right;
+	margin: 30px;
+	margin-top: 0;
+}
+.team{
+	text-align: center;
+	margin: 0 auto;
+}
+.member{
+	text-align: left;
+	box-shadow: 0 2px 5px grey;
+	padding: 20px;
+	width: 17%;
+	display: inline-block;
+	margin: 20px 5px;
+	vertical-align: top;
+}
+.member a:hover{
+	background-color: white;
+	color: #055b73;
+	border-color: #055b73;
+	border-style: solid;
+	border-width: 2px;
+}
+.member img{
+	width: 100%;
+}
+.member a{
+	display: inline-block;
+	width: 100%;
+	background-color: #055b73;
+	text-align: center;
+	padding: 14px 0;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+}
+h3{
+ 	font-weight: 400;
+ 	font-size: 24px;
+}
+#rate{
+	background-color: grey;
+	width: %;
+	margin: 0;
+	padding: 40px;
+	text-align: center;
+}
+.center{
+	text-align: center;
+}
+.Rate-heading{
+	text-align: center;
+	color: white;
+}
+.tariff{
+	background-color: white;
+	width: 28%;
+	display: inline-block;
+	margin: 10px;
+	padding: 0;
+	vertical-align: middle;
+	min-width: 150px;
+}
+.tariff li{
+	list-style-type: none;
+	padding: 16px 0;
+	border-bottom-width: 2px;
+	border-bottom-color: lightgrey;
+	border-bottom-style: solid;
+}
+.tariff a{
+	padding: 12px 24px;
+	background-color: black;
+	color: white;
+	border-radius: 7px;
+	text-decoration: none;
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+}
+.tariff a:hover {
+	background-color:white;
+	color: black;
+}
+#basic div{
+	border-color: lightgrey;
+	border-width: 1px;
+	border-style: none none solid none;
+	width: 100%;
+}
+#blacks{
+	background-color: black;
+	color: white;
+	padding-top: 2px;
+	margin: ;
+}
+#pro div{
+	border-color: lightgrey;
+	border-width: 1px;
+	border-style: none none solid none;
+	width: 100%;
+}
+}
+.rate-buttons{
+	padding: 15px;
+}
+.tariff .tariff-name{
+	background-color: black;
+	color: white;
+	margin: 0;
+	padding: 32px 0;
+	font-size: 24px;
+
+}
+.tariff .best{
+	background-color: #00456C;
+	padding: 48px 0;
+}
+#premium div{
+	border-style: none none solid none;
+	border-color: lightgrey;
+	border-width: 1px;
+}
+.dimmed{
+	color: lightgrey;
+}
+.position{
+	opacity: 0.6;
+}
+.contact-adress{
+	padding: 5px 0 5px 30px;
+	background-image: url(images/address.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.contact-phone{
+	padding: 5px 0 5px 30px;
+	background-image: url(images/phone.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.contact-mail{
+	padding: 5px 0 5px 30px;
+	background-image: url(images/mail.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+#contacts input{
+	margin: 5px;
+	width: 99%;
+	padding: 5px;
+}
+#contacts button{
+	background-color: black;
+	color: white;
+	padding: 5px 10px;
+	display: inline;
+	border-color: black;
+	border-style: solid;
+	border-radius: 10px;
+	margin-left: 50%;
+}
+#contacts button:hover, #rate input[type=button]:hover{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+#centers{
+	text-align: center;
+}
+#qwer{
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+}
+#contacts img{
+	margin-right: 5px;
+}
+#contacts small, #contacts h3{
+	text-align: center;
+	display: block;
+}
+.bold{
+	font-weight: bold;
+	max-width: fit-content;
+	margin: 0;
+	text-align: center;
+	display: inline;
+}
